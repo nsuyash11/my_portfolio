@@ -6,22 +6,22 @@
   cursor: pointer;
   transition: all 0.5s ease-out; }
   .menu-btn:hover * {
-    box-shadow: 1px 1px 5px #eafa08; }
+    box-shadow: 1px 1px 5px #ee3a1a; }
   .menu-btn.cross {
     transform: rotate(180deg); }
     .menu-btn.cross .btn-line:nth-child(1) {
-      background: #0370dd;
+      background: #eece1a;
       transform: rotate(45deg) translate(5px, 6px); }
     .menu-btn.cross .btn-line:nth-child(2) {
       opacity: 0; }
     .menu-btn.cross .btn-line:nth-child(3) {
-      background: #0370dd;
+      background: #eece1a;
       transform: rotate(-45deg) translate(7px, -5px); }
   .menu-btn .btn-line {
     width: 28px;
     height: 3px;
     margin-bottom: 5px;
-    background: #000;
+    background: #fff;
     transition: all 0.5s ease-out; }
 
 .menu {
@@ -46,7 +46,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    background: #aaa4a4;
+    background: #373737;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
@@ -64,13 +64,13 @@
         font-weight: 300;
         transition: all 0.5s ease-out; }
         .menu-nav .nav-item .nav-link:hover {
-          color: #0370dd;
-          text-shadow: 0.5px 0.5px 5px #eafa08;
+          color: #eece1a;
+          text-shadow: 0.5px 0.5px 5px #ee3a1a;
           transform: scale(1.1); }
     .menu-nav .current > .nav-link {
-      color: #0370dd; }
+      color: #eece1a; }
   .menu-branding {
-    background: #b6b1b1;
+    background: #444;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -82,8 +82,8 @@
       background-size: cover;
       opacity: 1;
       border-radius: 50%;
-      border: 2px solid #0370dd;
-      box-shadow: 0.5px 0.5px 10px #eafa08;
+      border: 2px solid #eece1a;
+      box-shadow: 0.5px 0.5px 10px #ee3a1a;
       transform: scale(0);
       z-index: 2; }
       .menu-branding .portrait.show {
@@ -116,8 +116,8 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #b6b1b1;
-  color: #000;
+  background-color: #444;
+  color: #fff;
   height: 100%;
   margin: 0;
   font-family: "Roboto Condensed", sans-serif;
@@ -128,7 +128,7 @@ body {
     background-size: cover; }
     body#bg-img:after {
       content: "";
-      background: rgba(182, 177, 177, 0.8);
+      background: rgba(68, 68, 68, 0.8);
       top: 0;
       left: 0;
       width: 100%;
@@ -150,10 +150,10 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem, 1rem;
-    background: rgba(187, 182, 182, 0.5); }
+    background: rgba(73, 73, 73, 0.5); }
 
 a {
-  color: #000;
+  color: #fff;
   text-decoration: none; }
 
 header {
@@ -162,7 +162,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #0370dd; }
+  color: #eece1a; }
 
 main {
   padding: 2rem 3rem;
@@ -173,8 +173,8 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #0370dd;
-        text-shadow: 1px 1px 5px #eafa08;
+        color: #eece1a;
+        text-shadow: 1px 1px 5px #ee3a1a;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -192,14 +192,14 @@ main {
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    border: 2px solid #0370dd;
-    box-shadow: 0.5px 0.5px 10px #eafa08; }
+    border: 2px solid #eece1a;
+    box-shadow: 0.5px 0.5px 10px #ee3a1a; }
   .about-info .bio-info {
     grid-area: bio;
     padding: 0.5rem;
     font-size: 1.5rem; }
     .about-info .bio-info h3 {
-      color: #0370dd;
+      color: #eece1a;
       font-weight: 400;
       font-size: 2rem; }
   .about-info .job-1 {
@@ -209,12 +209,12 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #cfcbcb;
+    background: #5e5e5e;
     padding: 0.5rem;
-    border-bottom: 5px solid #0370dd; }
+    border-bottom: 5px solid #eece1a; }
     .about-info .job h3 {
       text-align: center;
-      color: #0370dd;
+      color: #eece1a;
       font-weight: 400;
       font-size: 1.3rem; }
 
@@ -224,9 +224,9 @@ main {
   grid-gap: 2rem; }
   .projects img {
     width: 100%;
-    border: 3px solid #000; }
+    border: 3px solid #fff; }
     .projects img:hover {
-      border: 3px solid #0370dd;
+      border: 3px solid #eece1a;
       opacity: 0.8;
       transition: all 0.5s ease-out; }
   .projects .btn, .projects .btn-light, .projects .btn-dark {
@@ -236,14 +236,14 @@ main {
     border-radius: 0.2rem;
     text-align: center; }
     .projects .btn:hover, .projects .btn-light:hover, .projects .btn-dark:hover {
-      background: #0370dd;
+      background: #eece1a;
       color: #000;
       transition: all 0.5s ease-out; }
   .projects .btn-light {
-    background-color: #f4f3f3;
+    background-color: #848484;
     color: #222; }
   .projects .btn-dark {
-    background-color: #363232;
+    background-color: black;
     color: #fff; }
 
 .contact-channels {
@@ -256,23 +256,23 @@ main {
     font-size: 1rem;
     padding: 0.5rem 5rem;
     margin-bottom: 1rem;
-    border: 2px solid #000;
-    background: #c2bebe;
+    border: 2px solid #fff;
+    background: #515151;
     transition: all 0.5s ease-out; }
     .contact-channels .contact-item h2 {
-      color: #0370dd; }
+      color: #eece1a; }
     .contact-channels .contact-item:hover {
-      background: #0370dd;
-      color: #eafa08;
+      background: #eece1a;
+      color: #ee3a1a;
       transform: scaleX(1.2); }
       .contact-channels .contact-item:hover h2 {
-        color: #b6b1b1; }
+        color: #444; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #9d9797;
-  color: #000;
+  background: #2b2b2b;
+  color: #fff;
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
